@@ -1,0 +1,79 @@
+name: guelaguetza
+description: Guelaguetza.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  vrouter: ^1.2.1
+  find_dropdown: ^1.0.0
+  achievement_view: ^1.0.0
+  responsive_sizer: ^3.1.1
+  firebase_storage: ^11.2.0
+  firebase_core: ^2.12.0
+  file_picker: ^5.3.0
+  dio: ^5.1.2
+  custom_searchable_dropdown: ^2.1.1
+  roundcheckbox: ^2.0.5
+  path_provider: ^2.0.15
+  open_file: ^3.3.1
+  universal_html: ^2.2.2
+  syncfusion_flutter_pdf: ^21.2.8
+  url_launcher: ^6.1.11
+  scroll_loop_auto_scroll: ^0.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/registro_ok.jpg
+    - assets/images/imagen_home.png
+    - assets/images/cargando.gif
+    - assets/images/REGISTRO_ARTESANOS-02.png
+    - assets/images/logo_artesanias.png
+    - assets/images/logo_guelaguetza.jpg
+    - assets/images/logo_guelaguetza.png
+    - assets/images/ELEMENTOS-02.png
+    - assets/images/ELEMENTOS-03.png
+    - assets/images/ELEMENTOS-04.png
+    - assets/images/ELEMENTOS-05.png
+    - assets/images/ELEMENTOS-06.png
+    - assets/images/DESCARGA-05.png
+    - assets/images/IMPRIMIR-07.png
+
+
+  fonts:
+     - family: PlayBlack
+       fonts:
+         - asset: assets/fonts/PlayfairDisplay-Black.ttf
+     - family: PlayBlackItalic
+       fonts:
+         - asset: assets/fonts/PlayfairDisplay-BlackItalic.ttf
+     - family: PlayBold
+       fonts:
+         - asset: assets/fonts/PlayfairDisplay-Bold.ttf
+     - family: PlayBoldItalic
+       fonts:
+         - asset: assets/fonts/PlayfairDisplay-BoldItalic.ttf
+     - family: PlayItalic
+       fonts:
+         - asset: assets/fonts/PlayfairDisplay-Italic.ttf
+     - family: PlayRegular
+       fonts:
+         - asset: assets/fonts/PlayfairDisplay-Regular.ttf
